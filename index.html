@@ -49,6 +49,16 @@
 		</script>
 	</head>
 	<body>
+	<!-- fb Widget -->
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- fb Widget -->
 		<h1 align="center">The Upper Dirt</h1>
 		<div class="page-header">
 			<!-- VK Widget -->
@@ -60,7 +70,7 @@
 			</script>
 			</li>
 			<li>
-			<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheupperdirt&width=100%25&height=80&layout=standard&size=small&show_faces=true&appId" width="100%" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			<div class="fb-follow" data-href="https://www.facebook.com/theupperdirt" data-width="100%" data-layout="standard" data-size="small" data-show-faces="true"></div>
 			</li>
 			</ul>
 		</div>
